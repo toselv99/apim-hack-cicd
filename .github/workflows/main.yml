@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest          # Base image to be used for the GitHub runner
     env:                            # List of environment variables
       directory: api/CustomerAPI    # the path of the Customer API 
-      name: rg-tosehack          # Your POSTFIX
+      name: tosehack          # Your POSTFIX
 
     steps:
     - uses: actions/checkout@main
